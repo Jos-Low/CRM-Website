@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Dash.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h1>Expenses</h1>
+        <ul>
+            <a href="#" ><button>My Expenses</button></a>
+            <a href="#" ><button>Add Expense</button></a>
+            <a href="#" ><button>Record Mileage</button></a>
+            <a href="#" ><button>Expense Category</button></a>
+            <a href="#" ><button>Expense Vendors</button></a>
+        </ul>
+    </div>
+    <header>
+        <ul>
+            <a href="Estimates.html" class="button-link"><button>Estimates</button></a>
+            <a href="#" class="button-link"><button>Expenses</button></a>
+            <a href="Customers.html" class="button-link"><button>Customers</button></a>
+            <a href="Invoices.html" class="button-link"><button>Invoices</button></a>
+        </ul>
+    </header>
+    <section class = "Expenses">
+        <h1>My Expenses</h1>
+        <p>All recorded expenses</p>
+        <form>
+            <label for="Expenses Search"></label>
+            <input type="email" name="Expenses Search" placeholder="Search...">
+            <br><br>
+        
+            <label for="Filter by">Filter by:</label>
+            <input type="text" name="Time" placeholder="This year">
+            <br><br>
+        
+            <label for="Sort by">Sort by:</label>
+            <input type = "text"  name="Newest" placeholder="Newest First">
+            <br><br>
+        </form>
+    </section>
+    <section>
+        <div>
+            <ul class="ExpensesPeriod">           
+                <li><div class = PeriodLabel>PERIOD</div><div class = PeriodLabelValue>This Year</div></li>
+                <li><div class = PeriodLabel>ALL EXPENSES</div><div class = PeriodLabelValue>$0.00</div></li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
